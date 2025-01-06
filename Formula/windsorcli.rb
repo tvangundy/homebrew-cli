@@ -5,12 +5,12 @@
 class Windsorcli < Formula
   desc "The Windsor Command Line Interface"
   homepage "https://windsorcli.github.io"
-  version "0.0.47"
+  version "0.0.49"
   depends_on :macos
 
   if Hardware::CPU.arm?
-    url "https://github.com/tvangundy/cli/releases/download/v0.0.47/windsorcli_0.0.47_darwin_arm64.tar.gz"
-    sha256 "50a8ac86b0219bca7209a2c7aa5229174938385fcf577bb3049b08fb954de2e5"
+    url "https://github.com/tvangundy/cli/releases/download/v0.0.49/windsorcli_0.0.49_darwin_arm64.tar.gz"
+    sha256 "c669dc77c58c571a0db7cacd495867fe70187c31318af4c56868cee386066395"
 
     def install
       bin.install "windsorcli"
